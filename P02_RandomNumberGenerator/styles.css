@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 50%;
+  height: 30%;
+}
+
+.limits {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.limits input {
+  margin-left: 0px;
+  width: 60px;
+}
+
+.btn {
+  background-color: #4357ad;
+  margin-top: 30px;
+  width: 240px;
+  border-radius: 10px;
+  padding: 5px 0 5px 0;
+}
+
+.generated {
+  margin-top: 15px;
+}
