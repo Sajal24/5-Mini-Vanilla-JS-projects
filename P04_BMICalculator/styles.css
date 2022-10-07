@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid green;
+  width: 40%;
+}
+
+.inputs {
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+.inputs input {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
