@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid green;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: "Bungee Spice", cursive;
+}
+
+.btn {
+  width: 110px;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: "Silkscreen", cursive;
+  background-color: black;
+  color: brown;
+}
+
+button:hover {
+  color: white;
+}
