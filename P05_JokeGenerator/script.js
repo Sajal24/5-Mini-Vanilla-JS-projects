@@ -4,9 +4,13 @@ const generateBtn = document.querySelector(".btn");
 const gotJoke = "";
 
 generateBtn.addEventListener("click", () => {
-  fetch("https://api.chucknorris.io/jokes/random")
+  fetch("https://icanhazdadjoke.com", {
+    headers: {
+      Accept: "application/json",
+    },
+  })
     .then((response) => response.json())
     .then((data) => {
-      generatedJoke.innerHTML = data.value;
+      generatedJoke.innerHTML = data.joke;
     });
 });
